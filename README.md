@@ -29,9 +29,9 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 
 ## Content
 
-### PROJECT 1
+### PROJECT 1: Electric vehicle charging system
 <details>
-<summary style="font-size:20">Electric vehicle charging system </summary> 
+<summary>TASK</summary> 
  
   
 <img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
@@ -62,18 +62,23 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 </br>
 </br>
 
-#### Implementation
+</details>
+
+<details>
+<summary>IMPLEMENTATION</summary> 
+
+</br>
 
 [Virtual Simulation](https://wokwi.com/projects/412558654532609025)
+</br>
 
 [Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+</br>
 
 [Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4)
+</br>
 
-
-
-
-##### Photo Gallery
+#### Photo Gallery
 
 <div align="center">
   <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
