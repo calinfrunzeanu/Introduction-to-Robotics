@@ -30,7 +30,7 @@ Everything related to the course.
 
 ### Homework #1 : Electric vehicle charging system
  
-<img src="images/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
+<img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
 
 #### Components Used
 
