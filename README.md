@@ -30,8 +30,7 @@ Everything related to the course.
 
 ### Homework #1 : Electric vehicle charging system
  
-<<img src="images/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400"> align="right"
-     alt="Diagram" width="600">
+<img src="images/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="600">
 
 #### Components Used
 
@@ -45,8 +44,6 @@ Everything related to the course.
 [Wokwi Implementation](https://wokwi.com/projects/379141484912992257)
 
 [Demo link](https://youtu.be/U9Ul7x-ILts)
-
-
 
 </br>
 </br>
@@ -63,8 +60,7 @@ Long pressing the stop button will forcibly stop charging and reset the station 
   <summary> Development process</summary>
 
   <h4>Version 1</h4>
-  <img src="https://github.com/Pepi100/IntroductionToRobotics/blob/master/%232%20-%20RGB%20Led/V1Diagram.png" align="right"
-     alt="Diagram" width="500">
+  <img src="https://github.com/Pepi100/IntroductionToRobotics/blob/master/%232%20-%20RGB%20Led/V1Diagram.png" align="right" alt="Diagram" width="500">
   <p style='color: crimson;'>1x 220&#8486; rezistor</p>
   
   
@@ -89,8 +85,5 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 <!--   </br> -->
 </details>
 
-
-
 </br>
 </br>
-
