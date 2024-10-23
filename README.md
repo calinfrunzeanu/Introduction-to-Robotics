@@ -30,7 +30,7 @@ Everything related to the course.
 
 ### Homework #1 : Electric vehicle charging system
  
-<img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
+<img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="500">
 
 #### Components Used
 
@@ -60,26 +60,17 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 [Technical Scheme](https://wokwi.com/projects/412558654532609025)
 
-[Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/images)
-
-## Video
-
-<video width="600" controls>
-  <source src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/raw/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4)
 
 </br>
 
 ## Photo Gallery
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(2).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(3).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(4).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(5).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(6).jpg" alt="Image 1" width="300">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/calinfrunzeanu/Introduction-to-Robotics/main/media/project%201/img/WhatsApp%20Image%202024-10-23%20at%2022.59.47_0784fa3d.jpg" alt="Image 1" width="300">
+  <img src="https://raw.githubusercontent.com/calinfrunzeanu/Introduction-to-Robotics/main/media/project%201/img/WhatsApp%20Image%202024-10-23%20at%2022.59.47_91031cef.jpg" alt="Image 2" width="300">
+  <img src="https://raw.githubusercontent.com/calinfrunzeanu/Introduction-to-Robotics/main/media/project%201/img/WhatsApp%20Image%202024-10-23%20at%2022.59.47_e37cbaf3.jpg" alt="Image 3" width="300">
+  <img src="https://raw.githubusercontent.com/calinfrunzeanu/Introduction-to-Robotics/main/media/project%201/img/WhatsApp%20Image%202024-10-23%20at%2022.59.51_6eca4b01.jpg" alt="Image 4" width="300">
 </div>
 
 </br>
