@@ -30,7 +30,7 @@ Everything related to the course.
 
 ### Homework #1 : Electric vehicle charging system
  
-<img src="https://github.com/Pepi100/IntroductionToRobotics/blob/master/%232%20-%20RGB%20Led/FinalDiagram.png" align="right"
+<img src="https://github.com/Pepi100/IntroductionToRobotics/images/Screenshot 2024-10-23 205118.png" align="right"
      alt="Diagram" width="600">
 
 #### Components Used
