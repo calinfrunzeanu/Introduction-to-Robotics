@@ -41,10 +41,6 @@ Everything related to the course.
 - Breadboard
 - Connecting Lines
 
-[Wokwi Implementation](https://wokwi.com/projects/379141484912992257)
-
-[Demo link](https://youtu.be/U9Ul7x-ILts)
-
 </br>
 </br>
 </br>
@@ -56,34 +52,16 @@ The simple LEDs represent the degree of battery charge, which we will simulate t
 Short pressing the start button will start charging. Pressing this button while charging will not do anything.
 Long pressing the stop button will forcibly stop charging and reset the station to the free state. Pressing this button while the station is free will not do anything.
 
-<details>
-  <summary> Development process</summary>
-
-  <h4>Version 1</h4>
-  <img src="https://github.com/Pepi100/IntroductionToRobotics/blob/master/%232%20-%20RGB%20Led/V1Diagram.png" align="right" alt="Diagram" width="500">
-  <p style='color: crimson;'>1x 220&#8486; rezistor</p>
-  
-  
-  <p>This initial version used only ore resistor for the entire circuit. It did work, however, the red LED was significantly brighter than the others. According to <a href="https://os.mbed.com/users/4180_1/notebook/rgb-leds/#:~:text=Resistor%20values%20are%20typically%20around,of%20the%20light%20wave%20increases.">this</a> article, the voltage drop of the LED tends to rise as the frequency of the light wave increases. Therefore, it is suitable to use different resistors for each color of the RGB LED.
-  </p>
-<!--   </br> -->
-  <p>With the available choices, I've selected 2x 100&#8486; resistors for the blue and green LEDs.</p>
-
 </br>
 </br>
-   <h4>Version 2</h4>
-   
-  <p style='color: crimson;'>Filtering signal</p>
-  
-  
-  <p>
-    This second version brings modifications to the code. The main flaw of version 1 was the flickering of the green LED when adjusting the other knobs. I`ve manually implemented a high pass filter such that values below a certain threshold would not register.
-  </p>
-    <p>
-    LED values are now updated every 10 mills, attempting to reduce flickering and provide a smoother output.
-  </p>
-<!--   </br> -->
-</details>
+</br>
+
+#### Implementation
+
+[Wokwi Implementation](https://wokwi.com/projects/412558654532609025)
+
+[Demo link](https://youtu.be/U9Ul7x-ILts)
+
 
 </br>
 </br>
