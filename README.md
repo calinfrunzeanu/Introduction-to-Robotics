@@ -26,6 +26,10 @@ Everything related to the course.
 
 </br>
 
+## Credits
+Professor: [Dan Tudose](https://github.com/dantudose)
+Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
+
 ## Content
 
 ### Homework #1 : Electric vehicle charging system
