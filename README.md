@@ -21,12 +21,6 @@ Everything related to the course.
 4. Understanding Basic Robotics Concepts
 5. Understanding and Using Microcontrollers
 
- This repo will contain all materials related to the laboratory.
- The code for each project is available in its specific folder.
-
-</br>
-
-## Credits
 Professor: [Dan Tudose](https://github.com/dantudose)
 
 Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
@@ -36,7 +30,8 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 ## Content
 
 ### Homework #1 : Electric vehicle charging system
- 
+<details>
+  
 <img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="500">
 
 
@@ -86,3 +81,4 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 </br>
 </br>
+</details>
