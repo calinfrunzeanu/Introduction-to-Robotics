@@ -22,7 +22,7 @@ Everything related to the course.
 5. Understanding and Using Microcontrollers
 
  This repo will contain all materials related to the laboratory.
- The code for each project is available in it's specific folder.
+ The code for each project is available in its specific folder.
 
 </br>
 
@@ -62,10 +62,20 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 [Pictures & Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/images)
 
-[Code]
+</br>
 
+## Photo Gallery
 
+https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(2).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(3).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(4).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(5).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(6).jpg" alt="Image 1" width="300">
+</div>
 
 </br>
 </br>
