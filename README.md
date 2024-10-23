@@ -29,9 +29,9 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 
 ## Content
 
-### Homework #1
+
 <details>
-<summary>Electric vehicle charging system</summary> 
+### <summary>PROJECT 1 Electric vehicle charging system</summary> 
  
   
 <img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="500">
