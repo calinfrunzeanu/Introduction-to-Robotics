@@ -83,7 +83,7 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 > If the video doesn't load on GitHub, [watch it here on Google Drive](https://drive.google.com/your-shared-video-link).
 
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/SXw6dHc"  ><a href="//imgur.com/a/SXw6dHc">Introduction to Robotics Project 1</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 #### Photo Gallery
 
 <div align="center">
