@@ -74,14 +74,10 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 [Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
 </br>
 
-[Video of the physical setup](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4)
+[Video of the physical setup]([https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/WhatsApp%20Video%202024-10-23%20at%2023.00.44_58cbeca5.mp4](https://imgur.com/VyJZZNH))
 </br>
 
-## Video Demo
 
-[![Introduction to Robotics Project 1](https://i.imgur.com/a/SXw6dHc.jpg)](https://imgur.com/a/SXw6dHc)
-
-> Click the image above to watch the video on Imgur.
 
 
 
