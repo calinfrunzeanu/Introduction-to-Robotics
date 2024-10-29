@@ -77,6 +77,94 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 [Video of the physical setup](https://imgur.com/VyJZZNH)
 </br>
 
+#### Photo Gallery
+
+<div align="center">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(2).jpg" alt="Image 2" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(3).jpg" alt="Image 3" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(4).jpg" alt="Image 4" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(5).jpg" alt="Image 5" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(6).jpg" alt="Image 6" width="300">  
+</div>
+
+</br>
+</br>
+</details>
+
+
+
+### PROJECT 2: ⁠TypeRacer Game
+<details>
+<summary>TASK</summary> 
+ 
+  
+<img src="media/project 1/img/Screenshot 2024-10-23 210012.png" align="right" alt="Diagram" width="400">
+
+#### Description
+
+In this theme you will create a game similar to TypeRacer.
+
+</br>
+
+#### Components Used
+
+- Arduino UNO (ATmega328P microcontroller)
+- 1x RGB LED (to signal if the correct word is misspelled or not)
+- 2x Buttons (for round start/stop and difficulty selection)
+- 5x Resistors (3x 220/330 ohm, 2x 1000 ohm)
+- Breadboard
+- Connecting threads
+
+</br>
+
+#### Technical Task
+
+RGB LED - Status indicator:
+
+In the sleep state, the LED will be white.
+When the start button is pressed, the LED will flash for 3 seconds, indicating a countdown until the start of the round.
+During a round: The LED will be green if the text entered is correct and will turn red if there is an error.
+(1p) Start/Stop button:
+
+Sleep Mode: If the game is paused, pressing the button initiates a new round after a 3-second countdown.
+During a round: If the round is active, pressing the button will stop it immediately.
+(1p) Difficulty button:
+
+The difficulty button controls the speed at which words appear and can only be used in idle mode.
+With each press, the difficulty changes by cycling between: (Easy, Medium, Hard).
+When changing the difficulty, a message is sent via serial: "Easy/Medium/Hard mode on!".
+For handling button presses, use debouncing and interrupts. Timers will be used to set the frequency of occurrence of words. A useful site, which also includes a video on using interrupts and timers in Arduino, is available here.
+(3p) Word generation:
+
+A word dictionary will be created.
+During a round, the words will be displayed in the terminal in a random order.
+If the current word was spelled correctly, a new word will be displayed immediately. If not, a new word will appear after the time interval set by the difficulty.
+To generate random numbers, you must use the random() function.
+(1p) Other observations:
+
+The allotted time for a round is 30 seconds.
+At the end of each round, the terminal will display how many words were spelled correctly.
+</br>
+</br>
+</br>
+
+</details>
+
+<details>
+<summary>IMPLEMENTATION</summary> 
+
+</br>
+
+[Virtual Simulation](https://wokwi.com/projects/412558654532609025)
+</br>
+
+[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+</br>
+
+[Video of the physical setup](https://imgur.com/VyJZZNH)
+</br>
+
 
 
 
