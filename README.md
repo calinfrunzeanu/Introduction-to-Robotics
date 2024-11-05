@@ -77,7 +77,7 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 [Virtual Simulation](https://wokwi.com/projects/412558654532609025)
 </br>
 
-[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/code/PROJECT%201/src/main.cpp)
 </br>
 
 [Video of the physical setup](https://imgur.com/VyJZZNH)
@@ -86,12 +86,12 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 #### Photo Gallery
 
 <div align="center">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(1).jpg" alt="Image 1" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(2).jpg" alt="Image 2" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(3).jpg" alt="Image 3" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(4).jpg" alt="Image 4" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(5).jpg" alt="Image 5" width="300">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/media/project%201/img/tema%201%20img%20(6).jpg" alt="Image 6" width="300">  
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(2).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(3).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(4).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(5).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(6).jpg" alt="Image 1" width="300">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(7).jpg" alt="Image 1" width="300">
 </div>
 
 </br>
