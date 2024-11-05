@@ -85,14 +85,15 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 #### Photo Gallery
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(2).jpg" alt="Image 1" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(3).jpg" alt="Image 2" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(4).jpg" alt="Image 3" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(5).jpg" alt="Image 4" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(6).jpg" alt="Image 5" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(7).jpg" alt="Image 6" width="150" height="150" style="object-fit: cover; flex: 1 1 150px; margin: 5px;">
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; max-width: 450px;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(2).jpg" alt="Image 1" width="300" height="300" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(3).jpg" alt="Image 2" width="300" height="300" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(4).jpg" alt="Image 3" width="300" height="300" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(5).jpg" alt="Image 4" width="300" height="300" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(6).jpg" alt="Image 5" width="300" height="300" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(7).jpg" alt="Image 6" width="300" height="300" style="object-fit: cover;">
 </div>
+
 
 
 </br>
