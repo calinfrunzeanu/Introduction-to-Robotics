@@ -33,7 +33,7 @@ Laboratory tutor: [Radu Ioan Nedelcu](https://github.com/Pepi100)
 <summary>TASK</summary> 
  
   
-<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(2).jpg" align="right" alt="Diagram" width="400">
+<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/images/project%201%20(1).jpg" align="right" alt="Diagram" width="400">
 
 #### Descriere
 
