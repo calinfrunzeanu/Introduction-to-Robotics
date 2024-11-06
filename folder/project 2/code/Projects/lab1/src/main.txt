@@ -1,0 +1,138 @@
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define CLOCK_SPEED 12000000
+#define BAUD 9600
+#define MYUBRR CLOCK_SPEED/16/BAUD-1
+
+#define MORSE_LUNG  3
+#define MORSE_SCURT 1
+
+char* morse_alphabet[] = {     
+    (char*)"13",    // a
+    (char*)"3111",  // b
+    (char*)"3131",  // c
+    (char*)"311",   // d
+    (char*)"1",     // e
+    (char*)"1131",  // f        
+    (char*)"331",	// g
+    (char*)"1111",	// h
+    (char*)"11",	// i
+    (char*)"1333",	// j
+    (char*)"313",	// k
+    (char*)"1311",	// l
+    (char*)"33",	// m
+    (char*)"31",	// n
+    (char*)"333",	// o
+    (char*)"1331",	// p
+    (char*)"3313",	// q
+    (char*)"131",	// r
+    (char*)"111",	// s
+    (char*)"3",	    // t
+    (char*)"113",	// u
+    (char*)"1113",	// v
+    (char*)"133",	// w
+    (char*)"3113",	// x
+    (char*)"3133",	// y
+    (char*)"3311"	// z
+};
+
+void speaker_morse(int tip)
+{
+    int delay = 1;
+    int i;
+    DDRD |= (1 << PD4);     // PD4 trebuie sa fie output
+
+    for (i = 0; i < tip * 50 / delay; i++)
+    {
+        PIND = (1 << PD4);  // alternam starea iesirii
+        _delay_ms(1);
+    }
+}
+
+void USART0_init(unsigned int baud_rate) {
+  /* seteaza baud rate */
+  UBRR0H = (unsigned char)(baud_rate>>8);
+  UBRR0L = (unsigned char)baud_rate;
+ 
+  /* porneste transmitatorul */
+  UCSR0B = (1 << TXEN0) | (1 << RXEN0);
+ 
+  /* seteaza formatul frame-ului: 8 biti de date, 2 bit de stop, fara paritate */
+  UCSR0C = (1<<USBS0)|(3<<UCSZ00);
+}
+ 
+void USART0_transmit(unsigned char data) {
+    /* așteaptă până când buffer-ul e gol */
+    while(!(UCSR0A & (1<<UDRE0)));
+ 
+    /* pune datele în buffer; transmisia va porni automat în urma scrierii */
+    UDR0 = data;
+}
+
+char USART0_receive()
+{
+  /* asteapta cat timp bufferul e gol */
+  while (!(UCSR0A & (1 << RXC0)));
+ 
+  /* returneaza datele din buffer */
+  return UDR0;
+}
+
+void ScrieMesaj(const char *data) {
+    for (int i = 0; i < strlen(data); i++) {
+        USART0_transmit(data[i]);
+        _delay_ms(100);
+    }
+}
+
+void genereazaMorse(char c) {
+    if (c >= 'a' && c <= 'z') {
+        char* codMorse = morse_alphabet[c - 'a'];
+
+        for (int i = 0; i < strlen(codMorse); i++) {
+            if (codMorse[i] == '1') {
+                speaker_morse(MORSE_SCURT);
+                ScrieMesaj("1");
+            } else if (codMorse[i] == '3') {
+                speaker_morse(MORSE_LUNG);
+                 ScrieMesaj("3");
+            }
+            _delay_ms(200); 
+        }
+        _delay_ms(600); 
+        ScrieMesaj(" ");
+
+    }
+}
+
+int main() {
+    USART0_init(25);
+    char nume[100];
+    int i = 0;
+
+    while (1) {
+        unsigned char primit = USART0_receive();
+
+        if (primit == '\n' || primit == '\r') {
+            nume[i] = '\0'; 
+
+
+            ScrieMesaj("Numele primit: ");
+            ScrieMesaj(nume);
+            ScrieMesaj("\n");
+
+            for (int j = 0; j < strlen(nume); j++) {
+                genereazaMorse(nume[j]);
+            }
+
+            i = 0; // resetează indexul pentru numele următor
+        } else {
+            nume[i++] = primit; // salvează caracterul primit
+        }
+    }
+
+    return 0;
+}
