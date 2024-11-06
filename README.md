@@ -168,7 +168,7 @@ At the end of each round, the terminal will display how many words were spelled 
 [Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/code/PROJECT%202/src/main.cpp)
 </br>
 
-[Video of the physical setup](https://imgur.com/VyJZZNH)
+[Video of the physical setup](https://imgur.com/gallery/introduction-to-robotics-project-2-video-aTbcrqy)
 </br>
 
 #### Photo Gallery
