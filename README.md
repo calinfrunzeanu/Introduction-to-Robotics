@@ -74,7 +74,7 @@ Long pressing the stop button will forcibly stop charging and reset the station 
 
 </br>
 
-[Virtual Simulation](https://wokwi.com/projects/412558654532609025)
+[Virtual Simulation](https://wokwi.com/projects/413755024948932609)
 </br>
 
 [Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%201/code/PROJECT%201/src/main.cpp)
@@ -162,10 +162,10 @@ At the end of each round, the terminal will display how many words were spelled 
 
 </br>
 
-[Virtual Simulation](https://wokwi.com/projects/413099200289435649)
+[Virtual Simulation](https://wokwi.com/projects/413755217734885377)
 </br>
 
-[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/code/project%201/main.cpp)
+[Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/code/PROJECT%202/src/main.cpp)
 </br>
 
 [Video of the physical setup](https://imgur.com/VyJZZNH)
