@@ -15,8 +15,9 @@ unsigned long startMillis = 0;
 const long gameDuration = 30000; // durata totala a jocului in milisecunde
 long currentInterval = 5000;     // interval implicit pentru dificultate
 int difficultyLevel = 0;         // 0: easy, 1: medium, 2: hard
-unsigned long lastDebounceTime = 0; // timpul ultimei apasari pentru debounce
-const unsigned long debounceDelay = 50; // delay pentru debounce
+unsigned long lastDebounceTimeStartStop = 0; // debounce pentru butonul start/stop
+unsigned long lastDebounceTimeLevel = 0; // debounce pentru butonul de dificultate
+const unsigned long debounceDelay = 200; // delay mai mare pentru debounce
 
 // dictionar de cuvinte
 const char* dictionar[] = {
@@ -112,19 +113,20 @@ void changeDifficulty() {
     difficultyLevel = (difficultyLevel + 1) % 3;
     switch (difficultyLevel) {
         case 0:
-            currentInterval = 5000;
+            currentInterval = 7000; // timp crescut la 7 secunde pentru modul easy
             Serial.println("Mod easy activat!");
             break;
         case 1:
-            currentInterval = 3000;
+            currentInterval = 3000; // 3 secunde pentru modul medium
             Serial.println("Mod medium activat!");
             break;
         case 2:
-            currentInterval = 1000;
+            currentInterval = 1000; // 1 secundă pentru modul hard
             Serial.println("Mod hard activat!");
             break;
     }
 }
+
 
 void displayWord() {
     int randIndex = random(0, dictSize);
@@ -159,19 +161,23 @@ void checkInput() {
 }
 
 void startStopISR() {
-    if (!inGame) {
-        startGame();
-    } else {
-        stopGame();
+    unsigned long currentMillis = millis();
+    if (currentMillis - lastDebounceTimeStartStop > debounceDelay) {
+        if (!inGame) {
+            startGame();
+        } else {
+            stopGame();
+        }
+        lastDebounceTimeStartStop = currentMillis;
     }
 }
 
 void difficultyISR() {
     unsigned long currentMillis = millis();
-    if (currentMillis - lastDebounceTime > debounceDelay) {
+    if (currentMillis - lastDebounceTimeLevel > debounceDelay) {
         if (!inGame) {
             changeDifficulty();
         }
-        lastDebounceTime = currentMillis;
+        lastDebounceTimeLevel = currentMillis;
     }
 }
