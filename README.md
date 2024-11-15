@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:20">
-Introduction to Robotics Course
+Introduction to Robotics
 </h1>
 
 <p align="center">
