@@ -191,7 +191,7 @@ At the end of each round, the terminal will display how many words were spelled 
 <summary>TASK</summary> 
  
   
-<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(1).jpg" align="right" alt="Diagram" width="400">
+<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(1).png" align="right" alt="Diagram" width="400">
 
 #### Description
 
