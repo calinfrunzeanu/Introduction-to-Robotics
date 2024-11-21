@@ -191,7 +191,7 @@ At the end of each round, the terminal will display how many words were spelled 
 <summary>TASK</summary> 
  
   
-<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(1).jpg" align="right" alt="Diagram" width="400">
+<img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(1).jpg" align="right" alt="Diagram" width="400">
 
 #### Description
 
@@ -299,10 +299,7 @@ wiring diagram (Wokwi, TinkerCAD
 <details>
 <summary>IMPLEMENTATION</summary> 
 
-</br>
 
-[Virtual Simulation](https://wokwi.com/projects/413755217734885377)
-</br>
 
 [Code](https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/code/PROJECT%202/src/main.cpp)
 </br>
@@ -313,12 +310,12 @@ wiring diagram (Wokwi, TinkerCAD
 #### Photo Gallery
 
 <div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; max-width: 450px;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(2).jpg" alt="Image 1" width="250" height="250" style="object-fit: cover;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(3).jpg" alt="Image 2" width="250" height="250" style="object-fit: cover;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(4).jpg" alt="Image 3" width="250" height="250" style="object-fit: cover;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(5).jpg" alt="Image 4" width="250" height="250" style="object-fit: cover;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(6).jpg" alt="Image 5" width="250" height="250" style="object-fit: cover;">
-  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%202/images/project%202%20(7).jpg" alt="Image 6" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(2).jpg" alt="Image 1" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(3).jpg" alt="Image 2" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(4).jpg" alt="Image 3" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(5).jpg" alt="Image 4" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(6).jpg" alt="Image 5" width="250" height="250" style="object-fit: cover;">
+  <img src="https://github.com/calinfrunzeanu/Introduction-to-Robotics/blob/main/folder/project%203/images/project%203%20(1).jpg" alt="Image 6" width="250" height="250" style="object-fit: cover;">
 </div>
 
 </br>
